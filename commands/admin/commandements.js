@@ -12,6 +12,6 @@ module.exports = {
         .setDescription('')
         .setFooter({text: 'La Voix', iconURL: client.user.displayAvatarURL()});
         
-        Commandements.send({content: "", embed: [rules]})
+        Commandements.send({content: "Ici la Voix,", embed: [rules]})
     }
 }
